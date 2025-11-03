@@ -1,131 +1,59 @@
-import React from "react";
-{/*
-DAY 1
-------------
-1.What is Virtual DOM
-Answer:
-The virtual DOM (VDOM) is a programming concept where an ideal, 
-or “virtual”, representation of a UI is kept in memory and synced 
-with the “real” DOM by a library such as ReactDOM. 
-This process is called reconciliation.
-we need VDOM whenever,once you start performing continous mutations, 
-more complexity arises. This is why the virtual DOM was created - to 
-allow you to write declarative content (like the string in the innerHTML example) while 
-harnessing performance by making only pinpoint changes to the DOM.
-2.What is SPA
-Answer:
-SPA stands for Single Page Application. It is a very common way of 
-programming websites these days. The idea is that the website loads 
-all the HTML/JS the first time you visit. When you then navigate, the browser 
-will only rerender the content without refreshing the website.
-3.What is difference between class and functional component
-Answer:
-A functional component is just a plain JavaScript pure function 
-that accepts props as an argument and returns a React element(JSX). 
-A class component requires you to extend from React. Component and 
-create a render function which returns a React element.
-Functional Components: 
-----------------------
-Functional components are some of the more 
-common components that will come across while working in React. 
-These are simply JavaScript functions. We can create a 
-functional component to React by writing a JavaScript function.
-Syntax:
-datatype functionname = () =>
-{
-    --statements--
-    return(
-        <>
-        --statements/html/css--
-        </>
-    )
-}
-Ex:
-const Hello = () =>
-{
-    return(
-        <h1>Hello</h1>
-    )
-}
-Class Component:
------------------
-This is the bread and butter of most modern web apps built in 
-ReactJS. These components are simple classes 
-(made up of multiple functions that add functionality to the application).
-syntax:
-class classname etends Component
-{
-    render()
-    {
-        return(
-            --html elements--
-        )
-    }
-      
-}
-ex:
-*/}
-class Hello extends React.Component
-{
-    render()
-    {
-        return(
-            <h1>Hello</h1>
-        )
-    }
-}
-{/*
-4.What does mean by state and its use in react?
-answer:
-The state is a built-in React object that is used to contain 
-data or information about the component. A component's state 
-can change over time; whenever it changes, 
-the component re-renders.
-Ex:
-*/}
-class Greetings extends React.Component {
+<h1 align="center">👋 Hi, I'm Ponselvik</h1>
+<h3 align="center">🚀 Frontend Developer | React & Angular Enthusiast | UI Designer</h3>
 
-  state = {
+---
 
-    name: "Leonardo da Vinci",
-    Invention : "Polymath",
-    fame : "Artist"
+### 🌟 About Me
+- 💻 Passionate about building responsive and interactive web applications  
+- 🎨 Love designing clean, modern user interfaces  
+- 🌱 Currently exploring **Next.js** and **TypeScript**  
+- ⚡ Fun fact: I enjoy solving UI bugs more than coffee breaks ☕
 
-  };
+---
 
-  updateName() {
+### 🧰 Tech Stack
 
-    this.setState({ name: "Simplilearn" });
+#### 🖥️ Frontend:
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white)
 
-  }
+#### 🧩 Tools:
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)
+![VS Code](https://img.shields.io/badge/-VS%20Code-0078D4?logo=visual-studio-code)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white)
 
-  render() {
+---
 
-      return(
+### 📚 My Projects
+- 🎯 **50 Days Challenge App** — motivational learning platform with animated UI  
+- 💳 **Payment UI Redesign** — optimized Angular page with responsive design  
+- 🏆 **Quiz Portal** — dynamic question system using TypeScript + Bootstrap
 
-          <div>
-            <h1>Scientist -  {this.state.name}</h1>
-            <h2>Inventions:{this.state.Invention}</h2>
-            <h2>Famous as:{this.state.fame}</h2>
-          </div>
+👉 Check out all my repositories [here](https://github.com/PONSELVIK?tab=repositories)
 
-      )
+---
 
-  }
+### 📈 GitHub Stats
 
-}
-export default Greetings;
-{/*
-5.What is JSX and why do we use it instead of js?
-Answer:
-JSX stands for JavaScript XML. JSX allows us to write HTML in React. 
-JSX makes it easier to write and add HTML in React.
-JSX allows us to write HTML elements in JavaScript and place them in the DOM without any 
-createElement() and/or appendChild() methods. JSX converts HTML tags into react elements. 
-You are not required to use JSX, but JSX makes it easier to write React applications.
-Ex:
-iday-1.jsx
-6.What is package.json
-Answer:
-The package. json file is the heart of any Node project. It records important metadata about a project which 
-is required 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PONSELVIK&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PONSELVIK&theme=radical" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📬 Connect With Me
+<p align="center">
+  <a href="mailto:ponselvik@example.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/ponselvik"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white"></a>
+</p>
+
+---
+
+⭐ **"Code. Create. Improve. Repeat."**
