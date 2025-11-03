@@ -6,7 +6,7 @@
 ### 🌟 About Me
 - 💻 Passionate about building responsive and interactive web applications  
 - 🎨 Love designing clean, modern user interfaces  
-- 🌱 Currently exploring **Next.js** and **TypeScript**  
+- 🌱 Currently exploring **Javaspringboot** and **TypeScript**  
 - ⚡ Fun fact: I enjoy solving UI bugs more than coffee breaks ☕
 
 ---
