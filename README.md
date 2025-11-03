@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Ponselvik</h1>
-<h3 align="center">🚀 Frontend Developer | React & Angular Enthusiast | UI Designer</h3>
+<h3 align="center">🚀 Frontend Developer | Angular & Ionic Enthusiast | UI Designer</h3>
 
 ---
 
